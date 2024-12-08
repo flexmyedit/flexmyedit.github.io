@@ -1,0 +1,82 @@
+input {
+    margin-top: 55px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    width: 350px;
+    height: 60px;
+    background-color: #357cda;
+    border-radius: 5px;
+    border: 0px;
+}
+
+body {
+    background-image: radial-gradient(circle at 50.42% 47.61%, #cfffff 0, #9db9f2 50%, #6c7790 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.header {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.semaforo {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.luce {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    margin-right: 50px;
+}
+
+.verde {
+    background-color: #2ecc71;
+}
+
+.rosso {
+    background-color: #e74c3c;
+}
+
+.istruzioni {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    max-width: 600px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#reflex {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#time {
+    font-size: 22px;
+    margin-top: 10px;
+}
